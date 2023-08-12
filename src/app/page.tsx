@@ -1,23 +1,16 @@
 import Image from 'next/image'
 import Navbar from '../../components/Navbar'
+import Desc from '../../components/Desc'
+import React, { useEffect } from "react"
+
 export default function Home() {
+
   return (
     <div>
 
       <div className='main'>
         <Navbar />
-        <div className='main-name'>
-          Ashutosh Jha
-        </div>
-
-        <div className="wrapper">
-          <ul className="dynamic-txts">
-            <li><span>Blockchain Developer</span></li>
-            <li><span>Open Source Contributor</span></li>
-            <li><span>Frontend Developer</span></li>
-          </ul>
-        </div>
-
+        <Desc/>
       </div>
     </div>
   )

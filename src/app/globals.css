@@ -45,28 +45,26 @@ body{
   height: 90vh;
 }
 .main-name{
-  
-  font-size: 50px;
-  padding: 30vh;
+  font-size: 90px;
+  padding: 10vh;
   text-align: center;
+  color: #e4e4e4;
 }
 
 .wrapper{
   
   display: flex;
 }
-.wrapper .static-txt{
-  color: #fff;
-  font-size: 60px;
-  font-weight: 400;
-}
+
 .wrapper .dynamic-txts{
   margin-left: 15px;
+  margin: auto;
   height: 90px;
   line-height: 90px;
   overflow: hidden;
 }
 .dynamic-txts li{
+  
   text-align: center;
   list-style: none;
   color: #6691ff;
@@ -104,4 +102,37 @@ body{
   100%{
     left: 0;
   }
+}
+.namebt{
+  margin: auto;
+}
+.wrap{
+  display: flex;
+}
+#jsimg{
+  margin-top: 10px;
+  width: 100px;
+  height: 120px;
+  /* mix-blend-mode: color; */
+}
+#cimg{
+  margin-top: 30px;
+  width: 80px;
+  height: 130px;
+}
+#solimg{
+  /* margin-right: 30px; */
+  margin: auto;
+  width: 80px;
+  height: 130px;
+}
+#rustimg{
+  margin: auto;
+  width: 120px;
+  height: 130px;
+}
+
+.Top{
+  margin: auto;
+  display: flex;
 }

@@ -1,10 +1,12 @@
 import Image from 'next/image'
+import {useEffect}  from "react"
+
 export default function Navbar(){
     
     return (
     
         <div className="navbar">
-            
+
             <div className="name">
                 <a href='#'>Ashu.</a>
             </div>
