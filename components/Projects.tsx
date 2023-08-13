@@ -7,23 +7,23 @@ export default function Projects() {
         <div >
             {details.map((T, U) => {
                 return (
-                    <Slide direction='right'>
+                    <Slide direction='right' key={U}>
                         <div className='project-wrap' key={U}>
-                            <div className="project">
+                            <div className="project" key={U}>
 
-                                <div className="project-heading">
+                                <div className="project-heading" key={U}>
                                     {T.name}
                                 </div>
 
-                                <div className="project-sub-heading">
+                                <div className="project-sub-heading" key={U}>
                                     {T.subheading}
                                 </div>
 
-                                <div className="project-desc">
+                                <div className="project-desc" key={U}>
                                     {T.description}
                                 </div>
 
-                                <div className='project-tech'>
+                                <div className='project-tech' key={U}>
                                     {T.techstack.map((E, K) => {
                                         return (
                                             <div className='tech' key = {K}>
@@ -33,13 +33,13 @@ export default function Projects() {
                                     })}
                                 </div>
 
-                                <div className='project-Github'>
+                                <div className='project-Github' key={U}>
                                     <a href={T.github}> Github 🔗 </a>
                                 </div>
 
 
                             </div>
-                            <div className='project-img'>
+                            <div className='project-img' key={U}>
                                 <img src={T.image} />
                             </div>
                         </div>
