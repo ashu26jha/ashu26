@@ -1,5 +1,6 @@
 'use client';
-import Image from 'next/image'
+import Image from 'next/image';
+import {motion} from 'framer-motion'
 import { useEffect } from 'react';
 export default function Desc() {
     const blur = () => {
@@ -30,7 +31,9 @@ export default function Desc() {
                 </div>
                 <div className='wrap'>
                     <Image id='jsimg' src="/js.png" alt="me" width={200} height={200} />
-                    <div className='namebt'>Ashutosh Jha</div>
+                    {/* <motion.div animate={{ y: 100 }} > */}
+                        <div className='namebt'>Ashutosh Jha</div>
+                    {/* </motion.div> */}
                     <Image id='cimg' src="/c.png" alt="me" width={100} height={100} />
                 </div>
 

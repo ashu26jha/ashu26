@@ -7,12 +7,9 @@ export default function Navbar(){
         <div className="navbar">
 
 
-            <div className="projects">
-                <a href='#'>Projects</a>
+            <div className="singnature">
+                <img src='/image.png'/>
                 
-            </div>
-            <div className="contact">
-                <a href='#'>Contact</a>
             </div>
 
             <div className="icon">
