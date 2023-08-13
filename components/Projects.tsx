@@ -1,13 +1,13 @@
 'use client';
 import details from '../projects.js'
-// import {Zoom} from 'react-reveal/Zoom';
+import { Slide } from "react-awesome-reveal";
 export default function Projects() {
 
     return (
         <div >
             {details.map((T, U) => {
                 return (
-                    // <Zoom>
+                    <Slide direction='right'>
                     <div className='project-wrap'>
                         <div className="project">
                             
@@ -44,8 +44,7 @@ export default function Projects() {
                         </div>
 
                     </div>
-                    // </Zoom>
-
+                    </Slide>
                 )
             })}
 
