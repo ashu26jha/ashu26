@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import {useEffect}  from "react"
 
 export default function Navbar(){
     
@@ -7,8 +6,13 @@ export default function Navbar(){
     
         <div className="navbar">
 
-            <div className="name">
-                <a href='#'>Ashu.</a>
+
+            <div className="projects">
+                <a href='#'>Projects</a>
+                
+            </div>
+            <div className="contact">
+                <a href='#'>Contact</a>
             </div>
 
             <div className="icon">

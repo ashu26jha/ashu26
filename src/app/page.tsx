@@ -1,6 +1,6 @@
-import Image from 'next/image'
 import Navbar from '../../components/Navbar'
 import Desc from '../../components/Desc'
+import Projects from '../../components/Projects'
 import React, { useEffect } from "react"
 
 export default function Home() {
@@ -10,7 +10,8 @@ export default function Home() {
 
       <div className='main'>
         <Navbar />
-        <Desc/>
+        <Desc />
+        <Projects />
       </div>
     </div>
   )

@@ -117,7 +117,7 @@ body{
 }
 #cimg{
   margin-top: 30px;
-  width: 80px;
+  width: 85px;
   height: 130px;
 }
 #solimg{
@@ -135,4 +135,50 @@ body{
 .Top{
   margin: auto;
   display: flex;
+}
+.projects, .contact{
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+
+
+
+
+.navigation {
+  position: fixed; 
+  width: 30%;
+  margin-left: 2%;
+  background-color: #999;
+  color: #fff;
+
+  &__link {
+    display: block;
+    color: #ddd; 
+    text-decoration: none;
+    padding: 1em;
+    font-weight: 400;
+    
+    &:hover {
+      background-color: #aaa;
+    }
+  
+     &.active {
+       color: white;
+       background-color: rgba(0,0,0,0.1);
+     }
+  }
+}
+h1{
+  font-size: 50px;
+}
+.project{
+  background-color: wheat;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+}
+.project-heading{
+  font-size: 30px;
+  font-weight: 600;
 }
