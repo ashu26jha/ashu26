@@ -6,7 +6,7 @@ const details = [
     "prize": ["Ceramic 🥇st Prize", "Huddle01 🥉rd Prize"],
     "techstack": ["Solidity", "GraphQL", "NextJS"],
     "github": "https://github.com/ashu26jha/courseselling",
-    "image":"/wis3.png",
+    "image":"/wis3.jpg",
     "link":"https://ethglobal.com/showcase/wis3-91a0v"
   },
   {
@@ -16,7 +16,7 @@ const details = [
     "prize":[ "Hedera 🥇 Best use case"],
     "techstack": ["Solidity", "NextJS", "etherJS"],
     "github":"https://github.com/ashu26jha/NFT-MarketPlace-Loan",
-    "image":"/tokenhunt.png",
+    "image":"/tokenhunt.jpg",
     "link":"https://devpost.com/software/token-hunt"
   },
   {
@@ -26,7 +26,7 @@ const details = [
     "prize": [""],
     "techstack": ["Solidity", "NextJS", "etherJS"],
     "github":"https://github.com/ashu26jha/web3drivefrontend",
-    "image":"/web3Drive.png",
+    "image":"/web3Drive.jpg",
     "link":"https://web3drive.on.fleek.co/"
   }
 ]

@@ -63,7 +63,7 @@ body {
 }
 
 .wrapper {
-
+  margin-bottom: 200px;
   display: flex;
 }
 
