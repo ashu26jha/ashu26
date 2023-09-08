@@ -24,8 +24,8 @@ export default function Desc() {
         <>
             <div className='main-name'>
                 <div className='Top'>
-                    <Image id='solimg' src="/solidity.jpg" alt="me" width={100} height={100} />
-                    <Image id='rustimg' src="/rust.jpg" alt="me" width={100} height={100} />
+                    <Image id='solimg' src="/solidity.png" alt="me" width={100} height={100} />
+                    <Image id='rustimg' src="/rust.png" alt="me" width={100} height={100} />
 
                 </div>
                 <div className='wrap'>
