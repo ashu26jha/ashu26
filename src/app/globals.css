@@ -176,6 +176,10 @@ body {
   margin-left: 10px;
   animation: mymove 5s infinite;
   animation-name: example;
+  margin: auto;
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 20px;
   animation-duration: 4s;
 }
 @keyframes mymove {
@@ -185,7 +189,7 @@ body {
 .project {
   background-color: rgb(18, 18, 18);
   color: rgb(196, 196, 196);
-  width: 50%;
+  width: 70%;
   border-radius: 20px 0  0 20px ;
   padding: 10px;
 }
@@ -195,23 +199,27 @@ body {
   margin-left: 20px;
   font-size: 30px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 .project-sub-heading {
   margin-left: 20px;
   margin-top: 5px;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .project-desc {
   margin-left: 20px;
   margin-top: 5px;
-  width: 100%;
+  width: 80%;
+  margin-bottom: 20px;
 }
 
 .project-tech {
   margin-left: 20px;
   display: flex;
+  margin-bottom: 20px;
 }
 
 .tech {
@@ -220,14 +228,19 @@ body {
 }
 .project-img{
   transition: transform .2s;
-  height: 100%;
-  width: 30%;
+  margin: auto;
+  width: 60%;
 }
 .project-img:hover{
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
 }
 .project-Github{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.prize{
   margin-left: 20px;
 }

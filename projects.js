@@ -1,30 +1,33 @@
 const details = [
   {
     "name": "Wis3",
-    "subheading": "Course Selling dAPP, won cash prize of $2700 @ETHGlobal",
-    "description": "Timstamps created through ComposeDB from a backend server so it is not tamperable Refunds dealt through, weightage on course completion",
+    "subheading": "Course Selling dAPP",
+    "description": "Timstamps created through ComposeDB from a backend server, Refunds dealt through DAO with weightage on course completion",
     "prize": ["Ceramic 🥇st Prize", "Huddle01 🥉rd Prize"],
     "techstack": ["Solidity", "GraphQL", "NextJS"],
     "github": "https://github.com/ashu26jha/courseselling",
-    "image":"/wis3.png"
+    "image":"/wis3.png",
+    "link":"https://ethglobal.com/showcase/wis3-91a0v"
   },
   {
-    "name": "NFT Loan - Marketplace",
-    "subheading": "Sell, Mint, Borrow ETH",
-    "description": "",
-    "prize": "",
+    "name": "Token Hunt",
+    "subheading": "Ticket your AI generated NFT",
+    "description": "NFT images are generated through GenAI, earn money by ticketing your NFT on the Hedera Testnet, Hedera Messages for the rendering frontend",
+    "prize":[ "Hedera 🥇 Best use case"],
     "techstack": ["Solidity", "NextJS", "etherJS"],
     "github":"https://github.com/ashu26jha/NFT-MarketPlace-Loan",
-    "image":"/nft.png"
+    "image":"/tokenhunt.png",
+    "link":"https://devpost.com/software/token-hunt"
   },
   {
     "name": "Web3Drive",
     "subheading": "Upload 'n Share",
     "description": "",
-    "prize": "",
+    "prize": [""],
     "techstack": ["Solidity", "NextJS", "etherJS"],
     "github":"https://github.com/ashu26jha/web3drivefrontend",
-    "image":"/web3Drive.png"
+    "image":"/web3Drive.png",
+    "link":"https://web3drive.on.fleek.co/"
   }
 ]
 
