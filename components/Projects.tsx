@@ -2,7 +2,6 @@
 import details from '../projects.js'
 import { Slide } from "react-awesome-reveal";
 export default function Projects() {
-
     return (
         <div >
             {details.map((T, U) => {
@@ -37,11 +36,25 @@ export default function Projects() {
                                     <a href={T.github}> Github 🔗 </a>
                                 </div>
 
+                                {T.prize.length>0 ? <>{T.prize.map((R, X) => {
+                                        return (
+                                            <div className='prize' key = {X}>
+                                                {R}
+                                            </div>
+                                        )
+                                    })}</> : <>LMAO</>}
+
 
                             </div>
-                            <div className='project-img' key={U}>
-                                <img src={T.image} />
-                            </div>
+                                <div className='project-img' key={U}>
+                                    <a href={T.link} target="_blank">
+                                    <div className='helper-img'>
+                                    <img src={T.image} />
+                                    </div>
+                                    
+                                    </a>
+                                </div>
+    
                         </div>
                     </Slide>
                 )
