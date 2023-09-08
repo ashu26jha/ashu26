@@ -171,6 +171,8 @@ body {
 }
 
 .project-wrap{
+  border-radius: 20px;
+  background-color: rgb(18, 18, 18);
   display: flex;
   margin-top: 120px;
   margin-left: 10px;
@@ -187,7 +189,7 @@ body {
   to {left: 300px;}
 }
 .project {
-  background-color: rgb(18, 18, 18);
+
   color: rgb(196, 196, 196);
   width: 70%;
   border-radius: 20px 0  0 20px ;
@@ -230,6 +232,8 @@ body {
   transition: transform .2s;
   margin: auto;
   width: 60%;
+  margin-right: 20px;
+  border-radius: 20px;
 }
 .project-img:hover{
   -ms-transform: scale(1.1); /* IE 9 */
@@ -240,7 +244,9 @@ body {
   margin-left: 20px;
   margin-bottom: 20px;
 }
-
 .prize{
   margin-left: 20px;
+}
+.helper-img img{
+  border-radius: 15px;
 }

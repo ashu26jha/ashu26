@@ -48,7 +48,10 @@ export default function Projects() {
                             </div>
                                 <div className='project-img' key={U}>
                                     <a href={T.link} target="_blank">
+                                    <div className='helper-img'>
                                     <img src={T.image} />
+                                    </div>
+                                    
                                     </a>
                                 </div>
     
