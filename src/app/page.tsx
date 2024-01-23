@@ -45,9 +45,7 @@ export default function MultiLayerParallax() {
         <a href="#projects" className="z-40"><div><i className="arrow down"></i></div></a>
       </div>
       <div className="bg-black p-4 flex">
-        <div className="subpixel-antialiased font-medium text-3xl  text-white">
-          Ashutosh
-        </div>
+
         <div className="subpixel-antialiased font-medium text-xl mt-auto ml-auto mr-6 text-white">
           <a href="#projects">Projects</a>
         </div>
@@ -95,7 +93,7 @@ export default function MultiLayerParallax() {
                     </ul>
                   </div>
                   <div className="ml-auto">
-                    <img src="wis3.jpeg" className="w-auto h-full max-w-3xl" />
+                    {/* <img src="wis3.jpeg" className="w-auto h-full max-w-3xl" /> */}
                   </div>
                 </div>
               </li>
@@ -125,39 +123,11 @@ export default function MultiLayerParallax() {
                     </ul>
                   </div>
                   <div className="ml-auto">
-                    <img src="linft.png" className="w-auto h-full max-w-3xl"/>
+                    {/* <img src="linft.png" className="w-auto h-full max-w-3xl"/> */}
                   </div>
                 </div>
               </li>
-              <li className="text-white mt-4  bg-slate-800 ">
-                <div className="flex w-3/4">
-                  <div className="">
-                    <h1 className="text-xl m-auto p-2">
-                      Li-NFT
-                    </h1>
-                    <div className="text-sm	italic ml-4 mt-4">
-                      Cross-Chain NFT Marketplace
-                    </div>
-                    <ul className="">
-                      <li className="ml-4 mt-4">
-                      Create unique NFTs with a single prompt, mint the ones you love, and sell them on our marketplace to earn real rewards. Plus, showcase your style with your NFT avatar in your chats.
-                      </li>
-                      <li className="flex h-1/6 mt-6 ml-4">
-                        <div className="mt-auto mb-auto">JavaScript</div> <img src="javascript.png" className="ml-1 w-1/12" />
-                        <div className=" ml-2 mt-auto mb-auto">Rust</div> <img src="rust.png" className="ml-1 w-1/6" />
-                      </li>
-                      <li className="flex ml-4 mt-4 mb-4">
-                        <Link href={"https://github.com/ashu26jha/linera-help"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12" /></Link>
-                        <Link href={"https://dorahacks.io/hackathon/linera-autumn-2023/detail"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> <img src="link.png" className="w-1/12" /></Link>
-                      </li>
 
-                    </ul>
-                  </div>
-                  <div className="m-auto">
-                    <img src="linft.png" className="w- m-4 ml-auto" />
-                  </div>
-                </div>
-              </li>
             </ul>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
