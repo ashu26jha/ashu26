@@ -9,7 +9,7 @@ export default function MultiLayerParallax() {
     offset: ["start start", "end start"],
   });
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "300%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "400%"]);
 
   return (
     <div>
@@ -53,13 +53,42 @@ export default function MultiLayerParallax() {
           <a href="#projects">Projects</a>
         </div>
         <div className="subpixel-antialiased font-medium text-xl mt-auto mr-6 text-white">
-          Contributions
+          <a href="#open-source">Contributions</a>
         </div>
       </div>
 
       <div className="w-full bg-[#06141D]">
-        <div className="max-w-lg space-y-4 mx-auto py-24 text-neutral-300">
+        <div className="pl-10 pt-10">
           <div id="projects">
+            <div className="text-white text-2xl">
+              Projects
+            </div>
+
+            <ul className="ml-4">
+              <li className="text-white mt-4  bg-slate-800 ">
+                <h1 className="text-xl m-auto p-2">
+                  Wis3
+                </h1>
+                <div className="text-sm	italic ml-4">
+                  A fullstack decentralised courselling dApp
+                </div>
+                <div className="ml-4 mt-4 flex">
+                  <ul>
+                    <li>
+                      Developed  full-stack course selling web-3 application using smart contracts with NextJS as the frontend
+                    </li>
+                    <li>
+                      Developed a full-stack course selling web-3 application using smart contracts with NextJS as the frontend
+                    </li>
+                  </ul>
+                  <img src="wis3.jpeg" className="w-1/2 h-1/2"/>
+                </div>
+              </li>
+              <li>
+                Li-NFT
+              </li>
+
+            </ul>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
               earum nobis quasi repellat. Amet facere nulla dolorum accusantium
@@ -67,18 +96,18 @@ export default function MultiLayerParallax() {
               nobis reprehenderit molestiae.
             </p>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-            earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-            sit dolores odio excepturi facilis laboriosam officiis dolorem,
-            nobis reprehenderit molestiae.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-            earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-            sit dolores odio excepturi facilis laboriosam officiis dolorem,
-            nobis reprehenderit molestiae.
-          </p>
+          <div id="open-source">
+            <div className="text-white text-2xl ">
+              Open Source Contributions
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+              earum nobis quasi repellat. Amet facere nulla dolorum accusantium
+              sit dolores odio excepturi facilis laboriosam officiis dolorem,
+              nobis reprehenderit molestiae.
+            </p>
+          </div>
+
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
             earum nobis quasi repellat. Amet facere nulla dolorum accusantium
