@@ -21,8 +21,8 @@ export default function MultiLayerParallax() {
         let top = window.scrollY;
         let offset = i.offsetTop - 150;
         let height = i.offsetHeight;
-        console.log(top," ",offset+150, height)
-        if(top<offset-2000){
+        console.log(top, " ", offset + 150, height)
+        if (top < offset - 2000) {
           setShowNavbar(false)
         }
 
@@ -32,7 +32,7 @@ export default function MultiLayerParallax() {
           menu.forEach(link => {
             link.classList.remove('active');
             let selectedLink = document.querySelector('header nav a[href*=' + id + ']');
-            if(top > offset){
+            if (top > offset) {
               setShowNavbar(true);
             }
 
@@ -125,7 +125,7 @@ export default function MultiLayerParallax() {
                         </li>
                         <li className="flex ml-4 mt-4 mb-8">
                           <Link href={"https://github.com/ashu26jha/courseselling"} className="flex"><div className="mt-auto mb-auto mr-2 ">GitHub</div> <img src="github.png" className="w-1/12 github" /></Link>
-                          <Link href={"https://ethglobal.com/showcase/wis3-91a0v"} className="flex"><div className="mt-auto mb-auto mr-2 ">Link</div> <img src="link.png" className="w-1/12 link" /></Link>
+                          <Link href={"https://ethglobal.com/showcase/wis3-91a0v"} className="flex"><div className="mt-auto mb-auto mr-2 ">Link</div> 🔗 </Link>
                         </li>
                         <li className="ml-4 mt-4">
                           Ceramic 1<sup>st</sup> 🥇 prize
@@ -161,7 +161,7 @@ export default function MultiLayerParallax() {
                         </li>
                         <li className="flex ml-4 mt-4 mb-4">
                           <Link href={"https://github.com/ashu26jha/linera-help"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12 github" /></Link>
-                          <Link href={"https://dorahacks.io/hackathon/linera-autumn-2023/detail"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> <img src="link.png" className="w-1/12 link" /></Link>
+                          <Link href={"https://dorahacks.io/hackathon/linera-autumn-2023/detail"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> 🔗 </Link>
                         </li>
                         <li className="ml-4 mt-4 mb-4">
                           Linera summer school 2<sup>nd</sup> 🥈 prize
@@ -193,7 +193,7 @@ export default function MultiLayerParallax() {
                         </li>
                         <li className="flex ml-4 mt-4 mb-4">
                           <Link href={"https://github.com/ashu26jha/token_hunt"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12 github" /></Link>
-                          <Link href={"https://devpost.com/software/token-hunt"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> <img src="link.png" className="w-1/12 link" /></Link>
+                          <Link href={"https://devpost.com/software/token-hunt"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> 🔗 </Link>
                         </li>
                         <li className="ml-4 mt-4 mb-4">
                           MLH Web3Apps - Hedera 1<sup>st</sup> 🥇 prize
@@ -215,132 +215,36 @@ export default function MultiLayerParallax() {
               <div className="text-white text-4xl font-fira font-bold">
                 Open Source
               </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
-                earum nobis quasi repellat. Amet facere nulla dolorum accusantium
-                sit dolores odio excepturi facilis laboriosam officiis dolorem,
-                nobis reprehenderit molestiae.
-              </p>
+              <ul className="ml-4">
+                <li className="text-white mt-16 bg-slate-800 rounded-3xl p-4">
+                  <div className="text-2xl">
+                    UI Enhancement
+                  </div>
+                  <div className="mt-4 flex">
+                    Complete overhaul of Ceramic's forum UI. <Link href={"https://staging-forum.ceramic.network/"} className="flex"><div className="mt-auto mb-auto mr-2 ml-1"> Link 🔗</div></Link>
+                  </div>
+
+                </li>
+
+                <li className="text-white mt-8 bg-slate-800 rounded-3xl p-4">
+                  <div className="text-2xl">
+                    Brew Formula
+                  </div>
+                  <div className="mt-4 flex">
+                    Created a brew formula in Ruby, for wheel to be installable via brew - MacOS package manager. <Link href={"https://github.com/ceramicstudio/wheel/pull/25"} className="flex"><div className="mt-auto mb-auto mr-2 ml-1"> Link 🔗</div></Link>
+                  </div>
+                </li>
+
+                <li className="text-white mt-8 bg-slate-800 rounded-3xl p-4">
+                  <div className="text-2xl">
+                    Subscribe chains
+                  </div>
+                  <div className="mt-4 flex">
+                    Created a CLI for a chain to subscribe / unsubsribe to other chains. <Link href={"https://github.com/linera-io/linera-protocol/pull/1489"} className="flex"><div className="mt-auto mb-auto mr-2 ml-1"> Link 🔗</div></Link>
+                  </div>
+                </li>
+              </ul>
+
             </div>
           </section>
 
