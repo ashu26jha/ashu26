@@ -221,7 +221,7 @@ export default function MultiLayerParallax() {
                     UI Enhancement
                   </div>
                   <div className="mt-4 flex">
-                    Complete overhaul of Ceramic's forum UI. <Link href={"https://staging-forum.ceramic.network/"} className="flex"><div className="mt-auto mb-auto mr-2 ml-1"> Link 🔗</div></Link>
+                    Complete overhaul of Ceramic forum UI. <Link href={"https://staging-forum.ceramic.network/"} className="flex"><div className="mt-auto mb-auto mr-2 ml-1"> Link 🔗</div></Link>
                   </div>
 
                 </li>
@@ -247,6 +247,52 @@ export default function MultiLayerParallax() {
 
             </div>
           </section>
+
+          <section id="achievements">
+            <div className="mt-16">
+              <div className="text-white text-4xl font-fira font-bold">
+                Achievements
+              </div>
+              <ul className="ml-4">
+                <li className="text-white mt-16 bg-slate-800 rounded-3xl p-4">
+                  <div className="text-2xl">
+                    Hackathons 👨🏻‍💻
+                  </div>
+                  <div className="mt-4 flex">
+                    Winner at 5 different Hackathons as solo and team participant 
+                  </div>
+                  <ul className="ml-4 mt-4">
+                    <li className=""><a href="https://ethglobal.com/showcase/wis3-91a0v">1. HackFS - ETHGlobal: <b>1<sup>st</sup></b> prize - Ceramic, <b>3<sup>rd</sup></b> prize - Huddle01  🔗</a></li>
+                    <li className="mt-2"><a href="https://devpost.com/software/token-hunt">2. Web3Apps - MLH: <b>1<sup>st</sup></b> prize - Hedera 'Best use case'  🔗</a> </li>
+                    <li className="mt-2"><a href="https://dorahacks.io/hackathon/linera-autumn-2023/detail">3. Linera Autumn School - Linera: <b>2<sup>nd</sup></b> prize - Linera  🔗</a> </li>
+                    <li className="mt-2"><a href="https://ethglobal.com/showcase/snaplink-j2v75">4. ETHOnline - ETHGlobal: <b>3<sup>rd</sup></b> pool prize - UMA 🔗</a></li>
+                    <li className="mt-2"><a href="https://ethglobal.com/showcase/ezcred-dfary">5. ETHIndia - ETHGlobal: <b>3<sup>rd</sup></b> prize - 1inch 🔗</a></li>
+                  </ul>
+
+                </li>
+
+                <li className="text-white mt-8 bg-slate-800 rounded-3xl p-4">
+                  <div className="text-2xl">
+                    Teaching 📖
+                  </div>
+                  <div className="mt-4 flex">
+                    Blockchain instructor - Localhost - IIIT Pune
+                  </div>
+                </li>
+
+                <li className="text-white mt-8 bg-slate-800 rounded-3xl p-4">
+                  <div className="text-2xl">
+                    Data structure & Algorithms
+                  </div>
+                  <div className="mt-4 flex">
+                    Solved over 200+ problems
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+          </section>
+
 
 
 
