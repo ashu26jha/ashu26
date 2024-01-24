@@ -12,13 +12,10 @@ export default function MultiLayerParallax() {
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   const textY = useTransform(scrollYProgress, [0, 1], ["0%", "800%"]);
   const [showNavbar, setShowNavbar] = useState(false);
-  const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
-
 
   useEffect(() => {
     let section = document.querySelectorAll('section');
     let menu = document.querySelectorAll('header nav a');
-
     window.onscroll = () => {
       section.forEach(i => {
         let top = window.scrollY;
