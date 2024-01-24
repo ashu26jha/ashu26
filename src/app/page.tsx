@@ -44,20 +44,11 @@ export default function MultiLayerParallax() {
         />
         <a href="#projects" className="z-40"><div><i className="arrow down"></i></div></a>
       </div>
-      {/* <div className="bg-black p-4 flex">
-
-        <div className="subpixel-antialiased font-medium text-xl mt-auto ml-auto mr-6 text-white">
-          <a href="#projects">Projects</a>
-        </div>
-        <div className="subpixel-antialiased font-medium text-xl mt-auto mr-6 text-white">
-          <a href="#open-source">Contributions</a>
-        </div>
-      </div> */}
 
       <div className="w-full bg-[#06141D]">
         <div className="w-4/5 pt-10 m-auto">
           <div id="projects">
-            <div className="text-white text-2xl">
+            <div className="text-white text-4xl font-fira font-bold">
               Projects
             </div>
 
@@ -65,10 +56,10 @@ export default function MultiLayerParallax() {
               <li className="text-white mt-16 bg-slate-800 rounded-3xl p-4">
                 <div className="flex">
                   <div className="w-5/6">
-                    <h1 className="text-xl m-auto p-2">
+                    <h1 className="m-auto p-2 font-ubuntu text-3xl">
                       Wis3
                     </h1>
-                    <div className="text-sm	italic ml-4 mt-4">
+                    <div className="text-sm	italic ml-4 mt-4 text-slate-300">
                       A fullstack decentralised courselling dApp
                     </div>
                     <ul>
@@ -76,8 +67,8 @@ export default function MultiLayerParallax() {
                         Timstamps created through ComposeDB from a backend server, Refunds dealt through DAO with weightage on course completion
                       </li>
                       <li className="flex h-1/6 mt-6 ml-2">
-                        <div className=" ml-2 mt-auto mb-auto h-1/12">TypeScript</div> <img src="ts.png" className="ml-1 w-1/12 h-1/6 m-auto" />
-                        <div className=" ml-2 mt-auto mb-auto h-1/12">NodeJS</div> <img src="node.png" className="ml-1 w-1/12 h-1/6 m-auto" />
+                        <div className=" ml-2 mt-auto mb-auto h-1/12">TypeScript</div> <img src="ts.png" className="ml-1 w-1/12 h-1/6" />
+                        <div className=" ml-2 mt-auto mb-auto h-1/12">NodeJS</div> <img src="node.png" className="ml-1 w-1/12 h-1/6" />
                       </li>
                       <li className="flex ml-4 mt-4 mb-8">
                         <Link href={"https://github.com/ashu26jha/courseselling"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12" /></Link>
@@ -99,15 +90,15 @@ export default function MultiLayerParallax() {
               <li className="text-white mt-16 bg-slate-800 rounded-3xl p-4 ">
                 <div className="flex">
                 <div className="w-5/6">
-                    <h1 className="text-xl m-auto p-2">
+                    <h1 className="m-auto p-2 font-ubuntu text-3xl">
                       Li - NFT
                     </h1>
-                    <div className="text-sm	italic ml-4 mt-4">
+                    <div className="text-sm	italic ml-4 mt-4 text-slate-300">
                       Crosschain NFT Marketplace
                     </div>
                     <ul>
                       <li className="ml-4 mt-4">
-                      Create unique NFTs with a single prompt, mint the ones you love, and sell them on our marketplace to earn real rewards. Plus, showcase your style with your NFT avatar in your chats.                      </li>
+                        Create unique NFTs with a single prompt, mint the ones you love, and sell them on our marketplace to earn real rewards. Plus, showcase your style with your NFT avatar in your chats.                      </li>
                       <li className="flex h-1/6 mt-6 ml-4">
                         <div className="mt-auto mb-auto">GraphQL</div> <img src="graphql.png" className="ml-1 w-1/12" />
                         <div className=" ml-2 mt-auto mb-auto">Rust</div> <img src="rust.png" className=" w-1/12 ml-2" />
@@ -129,10 +120,10 @@ export default function MultiLayerParallax() {
               <li className="text-white mt-16  bg-slate-800 rounded-3xl p-4">
                 <div className="flex">
                 <div className="w-5/6">
-                    <h1 className="text-xl m-auto p-2">
+                    <h1 className="font-ubuntu text-3xl m-auto p-2">
                       Token Hunt
                     </h1>
-                    <div className="text-sm	italic ml-4 mt-4">
+                    <div className="text-sm	italic ml-4 mt-4 text-slate-300">
                       NFT Raffle
                     </div>
                     <ul>
