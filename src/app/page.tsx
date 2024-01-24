@@ -262,11 +262,11 @@ export default function MultiLayerParallax() {
                     Winner at 5 different Hackathons as solo and team participant 
                   </div>
                   <ul className="ml-4 mt-4">
-                    <li className=""><a href="https://ethglobal.com/showcase/wis3-91a0v">1. HackFS - ETHGlobal: <b>1<sup>st</sup></b> prize - Ceramic, <b>3<sup>rd</sup></b> prize - Huddle01  🔗</a></li>
-                    <li className="mt-2"><a href="https://devpost.com/software/token-hunt">2. Web3Apps - MLH: <b>1<sup>st</sup></b> prize - Hedera 'Best use case'  🔗</a> </li>
+                    <li className=""><a href="https://ethglobal.com/showcase/wis3-91a0v">1. HackFS&apos;23 - ETHGlobal: <b>1<sup>st</sup></b> prize - Ceramic, <b>3<sup>rd</sup></b> prize - Huddle01  🔗</a></li>
+                    <li className="mt-2"><a href="https://devpost.com/software/token-hunt">2. Web3Apps - MLH: <b>1<sup>st</sup></b> prize - Hedera &apos;Best use case&apos;  🔗</a> </li>
                     <li className="mt-2"><a href="https://dorahacks.io/hackathon/linera-autumn-2023/detail">3. Linera Autumn School - Linera: <b>2<sup>nd</sup></b> prize - Linera  🔗</a> </li>
-                    <li className="mt-2"><a href="https://ethglobal.com/showcase/snaplink-j2v75">4. ETHOnline - ETHGlobal: <b>3<sup>rd</sup></b> pool prize - UMA 🔗</a></li>
-                    <li className="mt-2"><a href="https://ethglobal.com/showcase/ezcred-dfary">5. ETHIndia - ETHGlobal: <b>3<sup>rd</sup></b> prize - 1inch 🔗</a></li>
+                    <li className="mt-2"><a href="https://ethglobal.com/showcase/snaplink-j2v75">4. ETHOnline&apos;23 - ETHGlobal: <b>3<sup>rd</sup></b> pool prize - UMA 🔗</a></li>
+                    <li className="mt-2"><a href="https://ethglobal.com/showcase/ezcred-dfary">5. ETHIndia&apos;23 - ETHGlobal: <b>3<sup>rd</sup></b> prize - 1inch 🔗</a></li>
                   </ul>
 
                 </li>
