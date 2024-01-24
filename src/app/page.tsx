@@ -44,7 +44,7 @@ export default function MultiLayerParallax() {
         />
         <a href="#projects" className="z-40"><div><i className="arrow down"></i></div></a>
       </div>
-      <div className="bg-black p-4 flex">
+      {/* <div className="bg-black p-4 flex">
 
         <div className="subpixel-antialiased font-medium text-xl mt-auto ml-auto mr-6 text-white">
           <a href="#projects">Projects</a>
@@ -52,7 +52,7 @@ export default function MultiLayerParallax() {
         <div className="subpixel-antialiased font-medium text-xl mt-auto mr-6 text-white">
           <a href="#open-source">Contributions</a>
         </div>
-      </div>
+      </div> */}
 
       <div className="w-full bg-[#06141D]">
         <div className="w-4/5 pt-10 m-auto">
@@ -75,9 +75,9 @@ export default function MultiLayerParallax() {
                       <li className="ml-4 mt-4">
                         Timstamps created through ComposeDB from a backend server, Refunds dealt through DAO with weightage on course completion
                       </li>
-                      <li className="flex h-1/6 mt-6 ml-4">
-                        <div className=" ml-2 mt-auto mb-auto">TypeScript</div> <img src="ts.png" className="ml-1 w-1/12" />
-                        <div className=" ml-2 mt-auto mb-auto">NodeJS</div> <img src="node.png" className="ml-1 w-1/6" />
+                      <li className="flex h-1/6 mt-6 ml-2">
+                        <div className=" ml-2 mt-auto mb-auto h-1/12">TypeScript</div> <img src="ts.png" className="ml-1 w-1/12 h-1/6 m-auto" />
+                        <div className=" ml-2 mt-auto mb-auto h-1/12">NodeJS</div> <img src="node.png" className="ml-1 w-1/12 h-1/6 m-auto" />
                       </li>
                       <li className="flex ml-4 mt-4 mb-8">
                         <Link href={"https://github.com/ashu26jha/courseselling"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12" /></Link>
@@ -110,7 +110,7 @@ export default function MultiLayerParallax() {
                       Create unique NFTs with a single prompt, mint the ones you love, and sell them on our marketplace to earn real rewards. Plus, showcase your style with your NFT avatar in your chats.                      </li>
                       <li className="flex h-1/6 mt-6 ml-4">
                         <div className="mt-auto mb-auto">GraphQL</div> <img src="graphql.png" className="ml-1 w-1/12" />
-                        <div className=" ml-2 mt-auto mb-auto">Rust</div> <img src="rust.png" className="ml-1 w-1/6" />
+                        <div className=" ml-2 mt-auto mb-auto">Rust</div> <img src="rust.png" className=" w-1/12 ml-2" />
                       </li>
                       <li className="flex ml-4 mt-4 mb-4">
                         <Link href={"https://github.com/ashu26jha/linera-help"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12" /></Link>
@@ -122,7 +122,7 @@ export default function MultiLayerParallax() {
                     </ul>
                   </div>
                   <div className="ml-auto m-auto">
-                    <img src="linft.png" className="w-11/12 max-w-3xl rounded-3xl ml-4"/>
+                    <img src="linft.png" className="w-11/12 max-w-3xl h-11/ rounded-3xl ml-4"/>
                   </div>
                 </div>
               </li>
@@ -140,8 +140,7 @@ export default function MultiLayerParallax() {
                         Create AI generated NFTs, earn money by putting it in a raffle. Completely decentralised frontend created with help specially tailored serialisation and deserialisation logic on Hedera testnet
                       </li>
                       <li className="flex h-1/6 mt-6 ml-4">
-                        <div className="mt-auto mb-auto">JavaScript</div> <img src="javascript.png" className="ml-1 w-1/12" />
-                        <div className=" ml-2 mt-auto mb-auto">Rust</div> <img src="rust.png" className="ml-1 w-1/6" />
+                        <div className="mt-auto mb-auto">JavaScript</div> <img src="javascript.png" className="ml-1 w-1/12 h-1/6 m-auto" />
                       </li>
                       <li className="flex ml-4 mt-4 mb-4">
                         <Link href={"https://github.com/ashu26jha/token_hunt"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12" /></Link>
