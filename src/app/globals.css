@@ -35,16 +35,15 @@ html {
 }
 
 header nav a {
-  transition: 0.5s ease-out;
   display: none;
 }
 header nav a.active {
   padding: 10px;
   display: inline-block; /* or whatever display style you want for active elements */
   color: #dedede;
-  transition: 0.5s ease-out;
   letter-spacing: 2px;
 }
 .navhead{
   color: #dedede;
 }
+
