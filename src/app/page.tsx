@@ -55,14 +55,14 @@ export default function MultiLayerParallax() {
       </div>
 
       <div className="w-full bg-[#06141D]">
-        <div className="pl-10 pt-10">
+        <div className="w-4/5 pt-10 m-auto">
           <div id="projects">
             <div className="text-white text-2xl">
               Projects
             </div>
 
             <ul className="ml-4">
-              <li className="text-white mt-4  bg-slate-800 ">
+              <li className="text-white mt-16 bg-slate-800 rounded-3xl p-4">
                 <div className="flex">
                   <div className="w-5/6">
                     <h1 className="text-xl m-auto p-2">
@@ -76,7 +76,6 @@ export default function MultiLayerParallax() {
                         Timstamps created through ComposeDB from a backend server, Refunds dealt through DAO with weightage on course completion
                       </li>
                       <li className="flex h-1/6 mt-6 ml-4">
-                        <div className="mt-auto mb-auto">GraphQL</div> <img src="graphql.png" className="ml-1 w-1/12" />
                         <div className=" ml-2 mt-auto mb-auto">TypeScript</div> <img src="ts.png" className="ml-1 w-1/12" />
                         <div className=" ml-2 mt-auto mb-auto">NodeJS</div> <img src="node.png" className="ml-1 w-1/6" />
                       </li>
@@ -92,25 +91,25 @@ export default function MultiLayerParallax() {
                       </li>
                     </ul>
                   </div>
-                  <div className="ml-auto">
-                    {/* <img src="wis3.jpeg" className="w-auto h-full max-w-3xl" /> */}
+                  <div className="ml-auto m-auto">
+                    <img src="wis3.jpeg" className="w-11/12 max-w-3xl rounded-3xl ml-4" />
                   </div>
                 </div>
               </li>
-              <li className="text-white mt-4  bg-slate-800 ">
+              <li className="text-white mt-16 bg-slate-800 rounded-3xl p-4 ">
                 <div className="flex">
                 <div className="w-5/6">
                     <h1 className="text-xl m-auto p-2">
                       Li - NFT
                     </h1>
                     <div className="text-sm	italic ml-4 mt-4">
-                      A fullstack decentralised courselling dApp
+                      Crosschain NFT Marketplace
                     </div>
                     <ul>
                       <li className="ml-4 mt-4">
                       Create unique NFTs with a single prompt, mint the ones you love, and sell them on our marketplace to earn real rewards. Plus, showcase your style with your NFT avatar in your chats.                      </li>
                       <li className="flex h-1/6 mt-6 ml-4">
-                        <div className="mt-auto mb-auto">JavaScript</div> <img src="javascript.png" className="ml-1 w-1/12" />
+                        <div className="mt-auto mb-auto">GraphQL</div> <img src="graphql.png" className="ml-1 w-1/12" />
                         <div className=" ml-2 mt-auto mb-auto">Rust</div> <img src="rust.png" className="ml-1 w-1/6" />
                       </li>
                       <li className="flex ml-4 mt-4 mb-4">
@@ -122,8 +121,39 @@ export default function MultiLayerParallax() {
                       </li>
                     </ul>
                   </div>
-                  <div className="ml-auto">
-                    {/* <img src="linft.png" className="w-auto h-full max-w-3xl"/> */}
+                  <div className="ml-auto m-auto">
+                    <img src="linft.png" className="w-11/12 max-w-3xl rounded-3xl ml-4"/>
+                  </div>
+                </div>
+              </li>
+              <li className="text-white mt-16  bg-slate-800 rounded-3xl p-4">
+                <div className="flex">
+                <div className="w-5/6">
+                    <h1 className="text-xl m-auto p-2">
+                      Token Hunt
+                    </h1>
+                    <div className="text-sm	italic ml-4 mt-4">
+                      NFT Raffle
+                    </div>
+                    <ul>
+                      <li className="ml-4 mt-4">
+                        Create AI generated NFTs, earn money by putting it in a raffle. Completely decentralised frontend created with help specially tailored serialisation and deserialisation logic on Hedera testnet
+                      </li>
+                      <li className="flex h-1/6 mt-6 ml-4">
+                        <div className="mt-auto mb-auto">JavaScript</div> <img src="javascript.png" className="ml-1 w-1/12" />
+                        <div className=" ml-2 mt-auto mb-auto">Rust</div> <img src="rust.png" className="ml-1 w-1/6" />
+                      </li>
+                      <li className="flex ml-4 mt-4 mb-4">
+                        <Link href={"https://github.com/ashu26jha/token_hunt"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12" /></Link>
+                        <Link href={"https://devpost.com/software/token-hunt"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> <img src="link.png" className="w-1/12" /></Link>
+                      </li>
+                      <li className="ml-4 mt-4 mb-4">
+                        MLH Web3Apps'23 - Hedera 1<sup>st</sup> 🥇 prize
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="ml-auto m-auto">
+                    <img src="tokenhunt.png" className="w-11/12 max-w-3xl rounded-3xl ml-4"/>
                   </div>
                 </div>
               </li>
