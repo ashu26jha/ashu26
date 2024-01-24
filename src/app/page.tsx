@@ -148,7 +148,7 @@ export default function MultiLayerParallax() {
                         <Link href={"https://devpost.com/software/token-hunt"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> <img src="link.png" className="w-1/12" /></Link>
                       </li>
                       <li className="ml-4 mt-4 mb-4">
-                        MLH Web3Apps'23 - Hedera 1<sup>st</sup> 🥇 prize
+                        MLH Web3Apps - Hedera 1<sup>st</sup> 🥇 prize
                       </li>
                     </ul>
                   </div>

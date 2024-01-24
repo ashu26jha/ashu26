@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+  "lint:fix": "eslint --fix --ext .js,.jsx ."
   },
   "dependencies": {
     "framer-motion": "^10.18.0",
