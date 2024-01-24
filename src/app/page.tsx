@@ -71,8 +71,8 @@ export default function MultiLayerParallax() {
                         <div className=" ml-2 mt-auto mb-auto h-1/12">NodeJS</div> <img src="node.png" className="ml-1 w-1/12 h-1/6" />
                       </li>
                       <li className="flex ml-4 mt-4 mb-8">
-                        <Link href={"https://github.com/ashu26jha/courseselling"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12" /></Link>
-                        <Link href={"https://ethglobal.com/showcase/wis3-91a0v"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> <img src="link.png" className="w-1/12" /></Link>
+                        <Link href={"https://github.com/ashu26jha/courseselling"} className="flex"><div className="mt-auto mb-auto mr-2 ">GitHub</div> <img src="github.png" className="w-1/12 github" /></Link>
+                        <Link href={"https://ethglobal.com/showcase/wis3-91a0v"} className="flex"><div className="mt-auto mb-auto mr-2 ">Link</div> <img src="link.png" className="w-1/12 link" /></Link>
                       </li>
                       <li className="ml-4 mt-4">
                         Ceramic 1<sup>st</sup> 🥇 prize
@@ -105,8 +105,8 @@ export default function MultiLayerParallax() {
                         <div className=" ml-2 mt-auto mb-auto">Rust</div> <img src="rust.png" className=" w-1/12 ml-2" />
                       </li>
                       <li className="flex ml-4 mt-4 mb-4">
-                        <Link href={"https://github.com/ashu26jha/linera-help"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12" /></Link>
-                        <Link href={"https://dorahacks.io/hackathon/linera-autumn-2023/detail"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> <img src="link.png" className="w-1/12" /></Link>
+                        <Link href={"https://github.com/ashu26jha/linera-help"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12 github" /></Link>
+                        <Link href={"https://dorahacks.io/hackathon/linera-autumn-2023/detail"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> <img src="link.png" className="w-1/12 link" /></Link>
                       </li>
                       <li className="ml-4 mt-4 mb-4">
                         Linera summer school 2<sup>nd</sup> 🥈 prize
@@ -135,8 +135,8 @@ export default function MultiLayerParallax() {
                         <div className="mt-auto mb-auto">JavaScript</div> <img src="javascript.png" className="ml-1 w-1/12 h-1/6 m-auto" />
                       </li>
                       <li className="flex ml-4 mt-4 mb-4">
-                        <Link href={"https://github.com/ashu26jha/token_hunt"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12" /></Link>
-                        <Link href={"https://devpost.com/software/token-hunt"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> <img src="link.png" className="w-1/12" /></Link>
+                        <Link href={"https://github.com/ashu26jha/token_hunt"} className="flex"><div className="mt-auto mb-auto mr-2">GitHub</div> <img src="github.png" className="w-1/12 github" /></Link>
+                        <Link href={"https://devpost.com/software/token-hunt"} className="flex"><div className="mt-auto mb-auto mr-2">Link</div> <img src="link.png" className="w-1/12 link" /></Link>
                       </li>
                       <li className="ml-4 mt-4 mb-4">
                         MLH Web3Apps - Hedera 1<sup>st</sup> 🥇 prize

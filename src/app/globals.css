@@ -21,4 +21,11 @@ html {
   div {
     flex-direction: column;
   }
+  .github{
+    width: 20px;
+    margin-right: 10px;
+  }
+  .link{
+    width: 20px;
+  }
 }
