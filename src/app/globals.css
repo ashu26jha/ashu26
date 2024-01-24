@@ -17,3 +17,8 @@ html {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+@media (max-width: 800px){
+  div {
+    flex-direction: column;
+  }
+}

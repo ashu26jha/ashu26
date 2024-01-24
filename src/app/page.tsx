@@ -10,7 +10,7 @@ export default function MultiLayerParallax() {
     offset: ["start start", "end start"],
   });
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "400%"]);
+  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "800%"]);
 
   return (
     <div>
@@ -82,14 +82,15 @@ export default function MultiLayerParallax() {
                       </li>
                     </ul>
                   </div>
-                  <div className="ml-auto m-auto">
+                  <div className="ml-auto m-auto test  md:ml-4">
                     <img src="wis3.jpeg" className="w-11/12 max-w-3xl rounded-3xl ml-4" />
                   </div>
+
                 </div>
               </li>
               <li className="text-white mt-16 bg-slate-800 rounded-3xl p-4 ">
                 <div className="flex">
-                <div className="w-5/6">
+                  <div className="w-5/6">
                     <h1 className="m-auto p-2 font-ubuntu text-3xl">
                       Li - NFT
                     </h1>
@@ -113,13 +114,13 @@ export default function MultiLayerParallax() {
                     </ul>
                   </div>
                   <div className="ml-auto m-auto">
-                    <img src="linft.png" className="w-11/12 max-w-3xl h-11/ rounded-3xl ml-4"/>
+                    <img src="linft.png" className="w-11/12 max-w-3xl h-11/ rounded-3xl ml-4" />
                   </div>
                 </div>
               </li>
               <li className="text-white mt-16  bg-slate-800 rounded-3xl p-4">
                 <div className="flex">
-                <div className="w-5/6">
+                  <div className="w-5/6">
                     <h1 className="font-ubuntu text-3xl m-auto p-2">
                       Token Hunt
                     </h1>
@@ -143,7 +144,7 @@ export default function MultiLayerParallax() {
                     </ul>
                   </div>
                   <div className="ml-auto m-auto">
-                    <img src="tokenhunt.png" className="w-11/12 max-w-3xl rounded-3xl ml-4"/>
+                    <img src="tokenhunt.png" className="w-11/12 max-w-3xl rounded-3xl ml-4" />
                   </div>
                 </div>
               </li>
