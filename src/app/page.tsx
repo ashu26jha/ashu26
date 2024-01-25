@@ -57,9 +57,9 @@ export default function MultiLayerParallax() {
       <header>
         <nav className={`z-50 fixed bg-slate-900 w-full ml-auto flex items-center transition-all duration-500 ${showNavbar ? 'visible' : 'hidden'} `}>
           <div className="navhead z-50 mr-auto ml-4 font-ubuntu text-2xl"><img src="logo.png" className="w-1/6" /></div>
-          <a href="#projects" className="ml-auto mr-2 tags">Projects</a>
-          <a href="#open-source" className="ml-auto mr-2 tags"><div className="tags">Open Source</div></a>
-          <a href="#achievements" className="ml-auto mr-2 tags">Achievements</a>
+          <a href="#projects" className="ml-auto mr-2 tags"><Fade>Projects</Fade></a>
+          <a href="#open-source" className="ml-auto mr-2 tags"><div className="tags"><Fade>Open Source</Fade></div></a>
+          <a href="#achievements" className="ml-auto mr-2 tags"><Fade>Achievements</Fade></a>
           <a href="#contact" className="ml-auto mr-2 tags">Contact</a>
         </nav>
       </header>
@@ -298,6 +298,16 @@ export default function MultiLayerParallax() {
 
             </div>
           </section>
+
+          <footer>
+            <div className="flex justify-center items-center">
+              <a className="m-4 github" href="https://github.com/ashu26jha"><img src="github.png" ></img></a>
+              <a className="m-4 linkedin" href="https://www.linkedin.com/in/ashutosh-jha-6b57451b8/"><img src="linkedin.png" ></img></a>
+              <a className=" twitter" href="https://twitter.com/ashu26jha"><img src="twitter.png" ></img></a>
+            </div>
+
+          </footer>
+
         </div>
       </div>
     </div>

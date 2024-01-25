@@ -34,16 +34,36 @@ html {
   }
 }
 
-header nav a {
+/* header nav a {
   display: none;
-}
-header nav a.active {
+} */
+/* header nav a.active {
   padding: 10px;
-  display: inline-block; /* or whatever display style you want for active elements */
-  color: #dedede;
-  letter-spacing: 2px;
-}
+  display: inline-block; 
+  /* color: #dedede; */
+  /* letter-spacing: 2px; */
+/* } */
 .navhead{
   color: #dedede;
 }
 
+.github{
+  opacity: 50%;
+  width: 3%;
+}
+.linkedin{
+  opacity: 50%;
+  width: 5%;
+}
+
+.twitter{
+  opacity: 50%;
+  width: 5%
+}
+
+.twitter:hover,
+.linkedin:hover,
+.github:hover {
+  cursor: pointer;
+  opacity: 100%;
+}
