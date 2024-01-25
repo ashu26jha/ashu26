@@ -87,7 +87,7 @@ export default function MultiLayerParallax() {
         <div
           className="absolute inset-0 z-20"
           style={{
-            backgroundImage: `url(/image-bottom.jpg)`,
+            backgroundImage: `url(/image-bottom.png)`,
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
@@ -262,10 +262,10 @@ export default function MultiLayerParallax() {
               <ul className="ml-4">
                 <Fade>
                   <li className="text-white mt-16 bg-slate-800 rounded-3xl p-4">
-                    <div className="text-2xl">
+                    <div className="text-2xl font-semibold">
                       🏆 Hackathons 👨🏻‍💻
                     </div>
-                    <div className="mt-4 flex">
+                    <div className="mt-4 flex font-medium">
                       Winner at 5 different Hackathons as solo and team participant
                     </div>
                     <ul className="ml-4 mt-4">
@@ -279,19 +279,19 @@ export default function MultiLayerParallax() {
                   </li>
                 </Fade>
                 <li className="text-white mt-8 bg-slate-800 rounded-3xl p-4">
-                  <div className="text-2xl">
+                  <div className="text-2xl font-bold">
                     Teaching 📖
                   </div>
-                  <div className="mt-4 flex">
+                  <div className="mt-4 flex font-semibold">
                     Blockchain instructor - Localhost - IIIT Pune
                   </div>
                 </li>
 
                 <li className="text-white mt-8 bg-slate-800 rounded-3xl p-4">
-                  <div className="text-2xl">
+                  <div className="text-2xl font-bold">
                     Data structure & Algorithms
                   </div>
-                  <div className="mt-4 flex">
+                  <div className="mt-4 flex font-semibold">
                     Solved over 200+ problems
                   </div>
                 </li>
@@ -300,13 +300,15 @@ export default function MultiLayerParallax() {
             </div>
           </section>
 
-          <footer>
-            <div className="flex justify-center items-center w-full">
+          <footer className="w-full">
+            <div className="flex justify-center items-center w-full mt-4">
               <a className=" githubimg w-1/3" href="https://github.com/ashu26jha"><img src="github.png" ></img></a>
               <a className="m-4 ml-6 w-1/3 linkedinimg" href="https://www.linkedin.com/in/ashutosh-jha-6b57451b8/"><img src="linkedin.png" className="w-full" ></img></a>
               <a className=" twitterimg w-1/3" href="https://twitter.com/ashu26jha"><img src="twitter.png" ></img></a>
             </div>
-            Resume EMAIL
+            <div className="text-center text-lg text-slate-400 mt-2 ">
+              <a href="https://drive.google.com/file/d/1m9oI1hfIn6KrIWNEZUx3rvbg-fZxgRN0/view?usp=sharing" className="hover:text-slate-100">Resume</a> <a href="mailto:ashutosh26jha@gmail.com" className="hover:text-slate-100">E-Mail</a>
+            </div>
           </footer>
 
         </div>
