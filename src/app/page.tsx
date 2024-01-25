@@ -260,23 +260,24 @@ export default function MultiLayerParallax() {
                 Achievements
               </div>
               <ul className="ml-4">
-                <li className="text-white mt-16 bg-slate-800 rounded-3xl p-4">
-                  <div className="text-2xl">
-                    Hackathons 👨🏻‍💻
-                  </div>
-                  <div className="mt-4 flex">
-                    Winner at 5 different Hackathons as solo and team participant
-                  </div>
-                  <ul className="ml-4 mt-4">
-                    <li className=""><a href="https://ethglobal.com/showcase/wis3-91a0v">1. HackFS&apos;23 - ETHGlobal: <b>1<sup>st</sup></b> prize - Ceramic, <b>3<sup>rd</sup></b> prize - Huddle01  🔗</a></li>
-                    <li className="mt-2"><a href="https://devpost.com/software/token-hunt">2. Web3Apps - MLH: <b>1<sup>st</sup></b> prize - Hedera &apos;Best use case&apos;  🔗</a> </li>
-                    <li className="mt-2"><a href="https://dorahacks.io/hackathon/linera-autumn-2023/detail">3. Linera Autumn School - Linera: <b>2<sup>nd</sup></b> prize - Linera  🔗</a> </li>
-                    <li className="mt-2"><a href="https://ethglobal.com/showcase/snaplink-j2v75">4. ETHOnline&apos;23 - ETHGlobal: <b>3<sup>rd</sup></b> pool prize - UMA 🔗</a></li>
-                    <li className="mt-2"><a href="https://ethglobal.com/showcase/ezcred-dfary">5. ETHIndia&apos;23 - ETHGlobal: <b>3<sup>rd</sup></b> prize - 1inch 🔗</a></li>
-                  </ul>
+                <Fade>
+                  <li className="text-white mt-16 bg-slate-800 rounded-3xl p-4">
+                    <div className="text-2xl">
+                      🏆 Hackathons 👨🏻‍💻
+                    </div>
+                    <div className="mt-4 flex">
+                      Winner at 5 different Hackathons as solo and team participant
+                    </div>
+                    <ul className="ml-4 mt-4">
+                      <li className=""><a href="https://ethglobal.com/showcase/wis3-91a0v">1. HackFS&apos;23 - ETHGlobal: <b>1<sup>st</sup></b> prize - Ceramic, <b>3<sup>rd</sup></b> prize - Huddle01  🔗</a></li>
+                      <li className="mt-2"><a href="https://devpost.com/software/token-hunt">2. Web3Apps - MLH: <b>1<sup>st</sup></b> prize - Hedera &apos;Best use case&apos;  🔗</a> </li>
+                      <li className="mt-2"><a href="https://dorahacks.io/hackathon/linera-autumn-2023/detail">3. Linera Autumn School - Linera: <b>2<sup>nd</sup></b> prize - Linera  🔗</a> </li>
+                      <li className="mt-2"><a href="https://ethglobal.com/showcase/snaplink-j2v75">4. ETHOnline&apos;23 - ETHGlobal: <b>3<sup>rd</sup></b> pool prize - UMA 🔗</a></li>
+                      <li className="mt-2"><a href="https://ethglobal.com/showcase/ezcred-dfary">5. ETHIndia&apos;23 - ETHGlobal: <b>3<sup>rd</sup></b> prize - 1inch 🔗</a></li>
+                    </ul>
 
-                </li>
-
+                  </li>
+                </Fade>
                 <li className="text-white mt-8 bg-slate-800 rounded-3xl p-4">
                   <div className="text-2xl">
                     Teaching 📖
@@ -300,12 +301,12 @@ export default function MultiLayerParallax() {
           </section>
 
           <footer>
-            <div className="flex justify-center items-center">
-              <a className="m-4 github" href="https://github.com/ashu26jha"><img src="github.png" ></img></a>
-              <a className="m-4 linkedin" href="https://www.linkedin.com/in/ashutosh-jha-6b57451b8/"><img src="linkedin.png" ></img></a>
-              <a className=" twitter" href="https://twitter.com/ashu26jha"><img src="twitter.png" ></img></a>
+            <div className="flex justify-center items-center w-full">
+              <a className=" githubimg w-1/3" href="https://github.com/ashu26jha"><img src="github.png" ></img></a>
+              <a className="m-4 ml-6 w-1/3 linkedinimg" href="https://www.linkedin.com/in/ashutosh-jha-6b57451b8/"><img src="linkedin.png" className="w-full" ></img></a>
+              <a className=" twitterimg w-1/3" href="https://twitter.com/ashu26jha"><img src="twitter.png" ></img></a>
             </div>
-
+            Resume EMAIL
           </footer>
 
         </div>

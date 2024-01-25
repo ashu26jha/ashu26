@@ -32,6 +32,15 @@ html {
     min-width: max-content;
     /* width: 20px; */
   }
+  footer{
+    flex-direction: column;
+  }
+  .linkedinimg{
+    /* width: 40px; */
+    flex-direction: column;
+    margin: auto;
+    
+  }
 }
 
 header nav a {
@@ -47,23 +56,23 @@ header nav a.active {
   color: #dedede;
 }
 
-.github{
+.githubimg{
   opacity: 50%;
   width: 3%;
 }
-.linkedin{
+.linkedinimg{
   opacity: 50%;
   width: 5%;
 }
 
-.twitter{
+.twitterimg{
   opacity: 50%;
   width: 5%
 }
 
-.twitter:hover,
-.linkedin:hover,
-.github:hover {
+.twitterimg:hover,
+.linkedinimg:hover,
+.githubimg:hover {
   cursor: pointer;
   opacity: 100%;
 }
