@@ -34,15 +34,15 @@ html {
   }
 }
 
-/* header nav a {
+header nav a {
   display: none;
-} */
-/* header nav a.active {
+} 
+header nav a.active {
   padding: 10px;
   display: inline-block; 
-  /* color: #dedede; */
-  /* letter-spacing: 2px; */
-/* } */
+  color: #dedede;
+  letter-spacing: 2px;
+}
 .navhead{
   color: #dedede;
 }
