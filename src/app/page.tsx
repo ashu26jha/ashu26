@@ -87,7 +87,7 @@ export default function MultiLayerParallax() {
         <div
           className="absolute inset-0 z-20"
           style={{
-            backgroundImage: `url(/image-bottom.png)`,
+            backgroundImage: `url(/image-bottom.jpg)`,
             backgroundPosition: "bottom",
             backgroundSize: "cover",
           }}
